@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="script.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<body>
+    <div id="wrapper">
+        <h1>This is the admin panel where you can create the courses</h1>
+
+        <div id="course">
+           <label for="">Enter all the course information here</label>
+           <br/>
+
+           <input type="text" id="course-title" placeholder="Enter the title of the course">
+           <br/>
+           <input type="text" id="course-description" placeholder="Enter the description of the course">
+           <br/>
+
+           <input type="text" id="course-price" placeholder="Enter the price of the price">
+           <br/>
+
+           <input type="text" id="course-url" placeholder="Enter the url of the course">
+           <br/>
+
+           <button type="submit" id="course-button">Submitt</button>
+
+           <button type="submit" id="getCourses">Get all courses</button>
+
+
+           <div id="courses">
+
+           </div>
+
+           
+
+
+        </div>
+
+    </div>
+</body>
+</html>
